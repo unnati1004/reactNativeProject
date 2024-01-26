@@ -9,14 +9,14 @@ import AppPro from "./AppPro";
 function App() {
   return (
     <SafeAreaView>
-      {/* <View>
+      <View>
         <Text>Hello World </Text>
         <Text>Hello World </Text>
         <Text>Hello World </Text>
         <Text>Hello World </Text>
         <Text>Hello World </Text>
         <Text>Hello World </Text>
-      </View> */}
+      </View>
       <AppPro/>
     </SafeAreaView>
   )
