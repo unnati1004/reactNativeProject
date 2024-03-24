@@ -31,16 +31,16 @@ export default function ActionCard() {
             In addition to https, you're likely also familiar with the mailto scheme. When you open a link with the mailto scheme, your operating system will open an installed mail application. Similarly, there are schemes for making phone calls and sending SMS. Read more about built-in URL schemes below.
           </Text>
         </View>
-        <View>
+        <View style={styles.footerContainer}>
           <TouchableOpacity
-          //  onPress={()=>openWebsite('https://coding.blog/')}
+           onPress={()=>openWebsite('https://coding.blog/')}
           >
             <Text style={styles.socialLinks}>
               Read More
             </Text>
           </TouchableOpacity>
           <TouchableOpacity
-          //  onPress={()=>openWebsite('https://coding.blog/')}
+           onPress={()=>openWebsite('https://coding.blog/')}
           >
             <Text style={styles.socialLinks}>
               Follow me
